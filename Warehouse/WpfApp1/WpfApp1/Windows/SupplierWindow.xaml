@@ -1,0 +1,71 @@
+﻿<Window x:Class="WpfApp1.SupplierWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Поставщики" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Name="dtgSupplier" Grid.Column="1"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Binding="{Binding IdSupplier}"
+                    Header="Код поставщика"
+                    Width="*"/>
+                <DataGridTextColumn
+                    Binding="{Binding Name}"
+                    Header="Название" 
+                    Width="*"/>
+                <DataGridTextColumn
+                    Binding="{Binding Phone}"
+                    Header="Телефон"
+                    Width="*"/>
+                <DataGridTextColumn
+                    Binding="{Binding Address}"
+                    Header="Адрес"
+                    Width="*"/>
+                <!--<DataGridTemplateColumn Width="Auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="BtnEditSupplier"
+                                    Click="BtnEditSupplier_Click"
+                                    Content="Редактировать"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Vertical"
+                    VerticalAlignment="Top">
+            <TextBlock Text="Сортировка по адресу"/>
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center">
+                <RadioButton x:Name="rbUpSupplier" Content="По возрастанию"
+                             Click="rbUpSupplier_Click"/>
+                <RadioButton x:Name="rbDownSupplier" Content="По убыванию"
+                             Click="rbDownSupplier_Click"/>
+            </StackPanel>
+            <TextBlock Text="Поиск по названию"/>
+            <TextBox x:Name="txtSearchSupplier"
+                     TextChanged="txtSearchSupplier_TextChanged"/>
+            <TextBlock Text="Фильтрация по адресу"/>
+            <ComboBox Name="cmbViewSupplier"
+                      SelectionChanged="cmbViewSupplier_SelectionChanged"/>
+            <Button Content="Добавить поставщика"
+                    Name="btnAddSupplier"
+                    Click="btnAddSupplier_Click"/>
+            <Button Name="BtnDeleteSupplier"
+                    Content="Удалить"
+                    Click="BtnDeleteSupplier_Click"/>
+            <Button Name="BtnBackSupplier"
+                    Content="Назад"
+                    Click="BtnBackSupplier_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

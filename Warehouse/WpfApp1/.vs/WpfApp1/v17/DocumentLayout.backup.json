@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\Warehouse\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACEEE5C-C002-429B-8369-511A7B7034AC}|WpfApp1\\WpfApp1.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\warehouse\\wpfapp1\\wpfapp1\\windows\\invoicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5ACEEE5C-C002-429B-8369-511A7B7034AC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\windows\\invoicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACEEE5C-C002-429B-8369-511A7B7034AC}|WpfApp1\\WpfApp1.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\warehouse\\wpfapp1\\wpfapp1\\windows\\invoicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACEEE5C-C002-429B-8369-511A7B7034AC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\windows\\invoicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACEEE5C-C002-429B-8369-511A7B7034AC}|WpfApp1\\WpfApp1.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\warehouse\\wpfapp1\\wpfapp1\\windows\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5ACEEE5C-C002-429B-8369-511A7B7034AC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\windows\\productwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACEEE5C-C002-429B-8369-511A7B7034AC}|WpfApp1\\WpfApp1.csproj|c:\\users\\admin\\desktop\\\u0431\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\warehouse\\wpfapp1\\wpfapp1\\windows\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5ACEEE5C-C002-429B-8369-511A7B7034AC}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\windows\\homewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\Warehouse\\WpfApp1\\WpfApp1\\Windows\\InvoiceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Windows\\InvoiceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\Warehouse\\WpfApp1\\WpfApp1\\Windows\\InvoiceWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Windows\\InvoiceWindow.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T11:47:14.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvoiceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\Warehouse\\WpfApp1\\WpfApp1\\Windows\\InvoiceWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Windows\\InvoiceWindow.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\Warehouse\\WpfApp1\\WpfApp1\\Windows\\InvoiceWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\Windows\\InvoiceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T11:45:43.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\Warehouse\\WpfApp1\\WpfApp1\\Windows\\ProductWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Windows\\ProductWindow.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\Warehouse\\WpfApp1\\WpfApp1\\Windows\\ProductWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\Windows\\ProductWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T11:11:17.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\Warehouse\\WpfApp1\\WpfApp1\\Windows\\HomeWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Windows\\HomeWindow.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\\u0411\u0430\u0432\u0440\u0438\u043D\u0430 \u043F\u0440\u0430\u043A\\Warehouse\\WpfApp1\\WpfApp1\\Windows\\HomeWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\Windows\\HomeWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-05T10:56:15.518Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

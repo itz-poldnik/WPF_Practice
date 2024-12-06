@@ -1,0 +1,65 @@
+﻿<Window x:Class="WpfApp1.Windows.AddInvoiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Windows"
+        mc:Ignorable="d"
+        Title="AddInvoiceWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Дата"
+                   Grid.Row="1"
+                   Grid.Column="0"/>
+        <TextBox Name="txtdate"
+                 Text="{Binding Date}"
+                 Grid.Row="1"
+                 Grid.Column="1"/>
+        <TextBlock Text="Товар"
+                   Grid.Row="2"
+                   Grid.Column="0"/>
+        <TextBox Name="txtproduct"
+                 Text="{Binding Product.Name}"
+                 Grid.Row="2"
+                 Grid.Column="1"/>
+        <TextBlock Text="Количество"
+                   Grid.Row="3"
+                   Grid.Column="0"/>
+        <TextBox Name="txtquantity"
+                 Text="{Binding Quantity}"
+                 Grid.Row="3"
+                 Grid.Column="1"/>
+        <TextBlock Text="Магазин"
+                   Grid.Row="4"
+                   Grid.Column="0"/>
+        <TextBox Name="txtshop"
+                 Text="{Binding Shop.Name}"
+                 Grid.Row="4"
+                 Grid.Column="1"/>
+        <Button Content="Сохранить"
+                Grid.ColumnSpan="2"
+                Grid.Row="5"
+                Width="150"
+                Height="30"
+                Name="BtnSaveInvoice"
+                Click="BtnSaveInvoice_Click" Margin="292,16,358,26"/>
+        <Button Content="Назад"
+                Grid.Row="5"
+                Width="150"
+                Height="30"
+                Name="BtnBacksInvoice"
+                Click="BtnBacksInvoice_Click" 
+                Grid.Column="1" Margin="154,16,176,26"/>
+    </Grid>
+</Window>

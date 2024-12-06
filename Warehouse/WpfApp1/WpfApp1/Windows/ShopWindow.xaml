@@ -1,0 +1,71 @@
+﻿<Window x:Class="WpfApp1.ShopWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Магазины" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid Name="dtgShop" Grid.Column="1"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn 
+                    Binding="{Binding IdShop}"
+                    Header="Код магазина"
+                    Width="*"/>
+                <DataGridTextColumn
+                    Binding="{Binding Name}"
+                    Header="Название" 
+                    Width="*"/>
+                <DataGridTextColumn
+                    Binding="{Binding Address}"
+                    Header="Адрес"
+                    Width="*"/>
+                <DataGridTextColumn
+                    Binding="{Binding Phone}"
+                    Header="Телефон"
+                    Width="*"/>
+                <!--<DataGridTemplateColumn Width="Auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="BtnEditShop"
+                                    Click="BtnEditShop_Click"
+                                    Content="Редактировать"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Vertical"
+                    VerticalAlignment="Top">
+            <TextBlock Text="Сортировка по названию"/>
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center">
+                <RadioButton x:Name="rbUpShop" Content="По возрастанию"
+                             Click="rbUpShop_Click"/>
+                <RadioButton x:Name="rbDownShop" Content="По убыванию"
+                             Click="rbDownShop_Click"/>
+            </StackPanel>
+            <TextBlock Text="Поиск по названию"/>
+            <TextBox x:Name="txtSearchShop"
+                     TextChanged="txtSearchShop_TextChanged"/>
+            <TextBlock Text="Фильтрация по адресу"/>
+            <ComboBox Name="cmbViewShop"
+                      SelectionChanged="cmbViewShop_SelectionChanged"/>
+            <Button Content="Добавить магазин"
+                    Name="btnAddShop"
+                    Click="btnAddShop_Click"/>
+            <Button Name="BtnDeleteShop"
+                    Content="Удалить"
+                    Click="BtnDeleteShop_Click"/>
+            <Button Name="BtnBackShop"
+                    Content="Назад"
+                    Click="BtnBackShop_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
